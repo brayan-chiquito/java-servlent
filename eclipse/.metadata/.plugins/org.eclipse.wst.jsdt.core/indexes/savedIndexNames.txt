@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\alura\servlet\eclipse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1805927007.index
+2946214269.index
+456790899.index
+141730439.index
+3572612583.index
+2229256799.index
+3827829491.index
