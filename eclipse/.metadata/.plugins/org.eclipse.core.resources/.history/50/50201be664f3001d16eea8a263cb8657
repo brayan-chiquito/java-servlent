@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="com.alura.gerenciador.servlet.Empresa"%>
+<%@page import="java.util.List"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Java Standard Taglib</title>
+</head>
+<body>
+	Lista de empresas: <br />
+	
+	
+	<ul>
+	<!--  $ se uso para simplificar empresas el la lista que llega desde la requuest-->
+	<!-- empresa se uso para darle nombre a cada elemento que esta dentro de la lista -->
+		<c:forEach items="${empresas}" var="empresa">
+			<!-- empresa.nombre es para simplificar el getNombre -->
+			<li>${ empresa.nombre } - ${ empresa.fechaAbertura }</li>
+		</c:forEach>	
+	
+	</ul>
+	
+	
+		
+</body>
+</html>

@@ -1,0 +1,20 @@
+<%
+	//scriptle
+	String empresa = (String)request.getAttribute("empresa");
+	System.out.println(empresa);
+
+%>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		empresa ${ 3 + 3 } registrada!
+</body>
+</html>
+
